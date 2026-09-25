@@ -1,0 +1,31 @@
+# CMake build directories
+build/
+build-asan/
+
+# Compiled binaries
+industrolink_app
+industrolink_asan
+udp_test
+tests/industrolink_tests
+userspace/telemetry_test
+userspace/test_driver
+
+# Kernel driver build artifacts
+driver/*.o
+driver/*.ko
+driver/*.mod
+driver/*.mod.c
+driver/*.mod.o
+driver/Module.symvers
+driver/modules.order
+driver/.*.cmd
+driver/.module-common.o
+
+# Backup/source scratch files
+driver/*_backup.c
+main_backup.cpp
+main_asan_backup.cpp
+main_clean.cpp
+
+# Miscellaneous
+=
