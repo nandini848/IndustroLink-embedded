@@ -30,3 +30,13 @@ main_clean.cpp
 # Miscellaneous
 =
 driver/industrolink_driver_backup_ioctl.c
+
+# Generated QEMU / device-tree artifacts
+*.dtb
+industrolink_cross
+industrolink_check.dts
+
+# Temporary driver versions
+driver/industrolink_driver_before_*.c
+driver/industrolink_driver_working.c
+userspace/telemetry_test.c.backup

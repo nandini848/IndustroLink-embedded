@@ -1,0 +1,16 @@
+/dts-v1/;
+
+/ {
+    model = "IndustroLink x86_64 QEMU";
+    compatible = "industrolink,qemu-x86_64";
+
+    industrolink {
+        compatible = "industrolink,telemetry";
+        status = "okay";
+
+        telemetry {
+            compatible = "industrolink,telemetry-device";
+            status = "okay";
+        };
+    };
+};
