@@ -416,6 +416,23 @@ This project provided hands-on experience with:
 * Linux debugging and kernel logs
 * Automated testing and static analysis
 
+## Verification & Demonstration
+
+### Project Structure
+
+![IndustroLink Project Structure](docs/images/project-structure.png)
+
+### Linux Character Driver & Telemetry
+
+![Driver and QEMU Telemetry](docs/images/driver-telemetry-qemu.png)
+
+### Buildroot Application
+
+![Buildroot Application](docs/images/buildroot-application.png)
+
+### Buildroot Integration
+
+![Buildroot Integration](docs/images/buildroot-integration.png)
 ---
 
 # Author
